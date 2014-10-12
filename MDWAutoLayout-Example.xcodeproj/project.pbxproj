@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4966F54419EB186600D44AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4966F54219EB186600D44AEC /* Main.storyboard */; };
 		496BD51119E922790008E1F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BD51019E922790008E1F7 /* main.m */; };
 		496BD51419E922790008E1F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BD51319E922790008E1F7 /* AppDelegate.m */; };
 		496BD51719E922790008E1F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BD51619E922790008E1F7 /* ViewController.m */; };
-		496BD51A19E922790008E1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496BD51819E922790008E1F7 /* Main.storyboard */; };
 		496BD51C19E922790008E1F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496BD51B19E922790008E1F7 /* Images.xcassets */; };
 		496BD51F19E922790008E1F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496BD51D19E922790008E1F7 /* LaunchScreen.xib */; };
 		496BD52B19E922790008E1F7 /* MDWAutoLayout_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BD52A19E922790008E1F7 /* MDWAutoLayout_ExampleTests.m */; };
+		496BD53919E923DA0008E1F7 /* UIView+MDWAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BD53819E923DA0008E1F7 /* UIView+MDWAutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4966F54319EB186600D44AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		496BD50B19E922790008E1F7 /* MDWAutoLayout-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDWAutoLayout-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		496BD50F19E922790008E1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496BD51019E922790008E1F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +36,13 @@
 		496BD51319E922790008E1F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		496BD51519E922790008E1F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		496BD51619E922790008E1F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		496BD51919E922790008E1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		496BD51B19E922790008E1F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		496BD51E19E922790008E1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		496BD52419E922790008E1F7 /* MDWAutoLayout-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MDWAutoLayout-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		496BD52919E922790008E1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496BD52A19E922790008E1F7 /* MDWAutoLayout_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDWAutoLayout_ExampleTests.m; sourceTree = "<group>"; };
+		496BD53719E923DA0008E1F7 /* UIView+MDWAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDWAutoLayout.h"; sourceTree = "<group>"; };
+		496BD53819E923DA0008E1F7 /* UIView+MDWAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDWAutoLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +88,12 @@
 				496BD51319E922790008E1F7 /* AppDelegate.m */,
 				496BD51519E922790008E1F7 /* ViewController.h */,
 				496BD51619E922790008E1F7 /* ViewController.m */,
-				496BD51819E922790008E1F7 /* Main.storyboard */,
 				496BD51B19E922790008E1F7 /* Images.xcassets */,
 				496BD51D19E922790008E1F7 /* LaunchScreen.xib */,
+				4966F54219EB186600D44AEC /* Main.storyboard */,
 				496BD50E19E922790008E1F7 /* Supporting Files */,
+				496BD53719E923DA0008E1F7 /* UIView+MDWAutoLayout.h */,
+				496BD53819E923DA0008E1F7 /* UIView+MDWAutoLayout.m */,
 			);
 			path = "MDWAutoLayout-Example";
 			sourceTree = "<group>";
@@ -199,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496BD51A19E922790008E1F7 /* Main.storyboard in Resources */,
+				4966F54419EB186600D44AEC /* Main.storyboard in Resources */,
 				496BD51F19E922790008E1F7 /* LaunchScreen.xib in Resources */,
 				496BD51C19E922790008E1F7 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496BD53919E923DA0008E1F7 /* UIView+MDWAutoLayout.m in Sources */,
 				496BD51719E922790008E1F7 /* ViewController.m in Sources */,
 				496BD51419E922790008E1F7 /* AppDelegate.m in Sources */,
 				496BD51119E922790008E1F7 /* main.m in Sources */,
@@ -244,10 +250,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		496BD51819E922790008E1F7 /* Main.storyboard */ = {
+		4966F54219EB186600D44AEC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				496BD51919E922790008E1F7 /* Base */,
+				4966F54319EB186600D44AEC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -414,6 +420,7 @@
 				496BD53019E922790008E1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496BD53119E922790008E1F7 /* Build configuration list for PBXNativeTarget "MDWAutoLayout-ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				496BD53319E922790008E1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

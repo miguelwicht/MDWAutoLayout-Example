@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) UIScrollView *scrollView;
+@property (strong, nonatomic) UIView *scrollViewContent;
 
 @end
 
